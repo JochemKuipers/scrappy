@@ -7,8 +7,20 @@
 
 Scrappy is an artwork scraper for muOS, with the standout feature of incorporating a fully-fledged **Skyscraper** app under the hood. This integration enables near-complete support for artwork XML layouts, allowing Scrappy to scrape, cache assets, and generate artwork using XML mixes with ease. This fork of Scrappy is maintained to improve compatibility with muOS, add new features, provide ongoing updates, and ensure long-term support while staying true to the original vision of the project.
 
+## Fork Transparency
+This repository is a **custom community fork** of the original Scrappy project, focused on practical muOS usage and iterative feature development for handheld workflows.
+- Upstream base: [gabrielfvale/scrappy](https://github.com/gabrielfvale/scrappy)
+- Maintained fork lineage: [saitamasahil/scrappy](https://github.com/saitamasahil/scrappy)
+- This fork adds and adjusts behavior beyond upstream, including:
+  - improved on-device settings flows for scraper credentials
+  - additional scraper module support (including IGDB integration)
+  - regional-cover handling improvements for IGDB-driven workflows
+  - Windows-friendly developer tooling (`build.ps1`, `dev-sync.ps1`) for faster iteration
+## AI Assistance Disclosure
+Parts of this fork were developed with **AI-assisted coding tools** (design discussion, implementation scaffolding, debugging support, and documentation edits), with final integration and testing decisions made by the maintainer.
 Please read the Wiki for more info on installation and configuration!
-* [Getting started](https://github.com/saitamasahil/scrappy/wiki/Getting-Started)
+* [Getting started](https://github.com/JochemKuipers/scrappy/wiki/Getting%E2%80%90Started)
+
 
 ## Features
 * Skyscraper backend (artwork XML, cached data, and many other features)
